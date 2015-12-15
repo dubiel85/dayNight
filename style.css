@@ -1,0 +1,46 @@
+html, body, #time {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sky {
+    height: 100%;
+    width: 100%;
+}
+
+#orb {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border-style: solid;
+    margin: auto;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.day #sky {
+    background-color: #37D8E6;
+}
+
+.night #sky {
+    background-color: #2C3E50;
+}
+
+.night #orb {
+   background-color: #BDC3C7;
+    border-color: #EAEFF2;
+    border-width: 10px;
+}
+
+.day #orb {
+    background-color: #FFDD00;
+    border-color: #F1C40F;
+    border-width: 10px;
+}
+
+.day #orb:hover {
+    border-color: #F1C40F;
+    border-width: 20px;
+}
